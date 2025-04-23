@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Markoob Action</title>
+    <script type="module" crossorigin src="../assets/popup-LV-ZvzdI.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/storage-Bmc69mpr.js">
+    <link rel="modulepreload" crossorigin href="../assets/i18n-W6kj09xD.js">
+    <link rel="stylesheet" crossorigin href="../assets/i18n-LLup1YkW.css">
+  </head>
+  <style>
+    html,
+    html.light {
+      --background-primary: rgba(255, 255, 255, 1);
+    }
+    html.dark {
+      --background-primary: rgba(20, 21, 22, 1);
+    }
+    @media (prefers-color-scheme: dark) {
+      html {
+        --background-primary: rgba(20, 21, 22, 1);
+      }
+    }
+    html {
+      width: 320px;
+      min-height: 440px;
+    }
+    body {
+      background: var(--background-primary);
+      padding-left: calc(100vw - 100%);
+    }
+  </style>
+  <body class="custom-scrollbar">
+    <div id="app"></div>
+  </body>
+</html>
