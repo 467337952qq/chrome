@@ -1,4 +1,5 @@
-就是一个自己用AI做的CHROME书签插件的想法，还没实现，
+就是一个买来的做的CHROME书签插件的想法，还没实现，
+![Image](https://github.com/user-attachments/assets/10316cf4-788e-4525-8d07-8af60d893f99)
 
 # chrome
 chrome的书签整理系统,试用。
